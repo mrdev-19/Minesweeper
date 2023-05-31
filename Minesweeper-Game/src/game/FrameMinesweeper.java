@@ -326,7 +326,7 @@ class FrameMinesweeper extends JFrame implements MouseListener, WindowListener, 
 			JOptionPane.showMessageDialog(null, "Share link copied to clipboard!");
 	        
 			// I copy in the clipboard the link
-	        String testString = ""; 
+	        String testString = "https://github.com/mrdev-19/Minesweeper"; 
 	        StringSelection stringSelectionObj = new StringSelection(testString);
 	        Clipboard clipboardObj = Toolkit.getDefaultToolkit().getSystemClipboard();
 	        clipboardObj.setContents(stringSelectionObj, null);
